@@ -66,6 +66,10 @@ h2 {
   padding: .5em;
 }
 
+.aboutVision {
+  font-weight: bold;
+}
+
 
 .splash {
   display: grid;
@@ -125,11 +129,11 @@ h3 {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  outline: 4px solid black;
+  outline: 1px solid black;
   margin: 1%;
   padding: 0 0 30px 0;
   background-color: antiquewhite;
-  box-shadow: 10px 10px 10px #000;
+  box-shadow: 10px 10px 10px gray;
 }
 
 #events-placeholder-text {

@@ -3,7 +3,7 @@ import Vision from './Vision';
 function About() {
   return (
     <div id="about" className="about">
-      <h2>About</h2>
+      <h2 className='aboutVision'>About</h2>
       <p>Whether you are a beginner, or a pro, there is always something new to learn, or someone new to meet.</p>
       <Vision/>
       <h3>Here is why you should come</h3>
