@@ -20,7 +20,7 @@ function Members() {
     <div>
       <div className="members">
         <h3>Meet the Admins</h3>
-        <div className="row">
+        <div className="row members">
           {admin.map((member) =>
             <div key={member.id}>
               <h4>{member.firstName}<br/> {member.lastName}</h4>
@@ -32,7 +32,7 @@ function Members() {
       </div>
       <div className="members"> 
         <h3>Meet the Contributors</h3>
-        <div className="row">
+        <div className="row members">
           {members.map((member) =>
             <div key={member.id}>
               <img className='avatar member-avatar' src={member.imgUrl} alt={`beautiful headshot of ${member.name}.`} />

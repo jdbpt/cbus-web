@@ -260,3 +260,10 @@ footer .image-wrapper {
 footer img {
   max-width: 100%;
 }
+
+@media (max-width: 800px) {
+  .members {
+    flex-direction: column;
+  }
+ 
+}
